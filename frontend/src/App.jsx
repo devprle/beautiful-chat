@@ -14,3 +14,6 @@ function App() {
         return <ChatsPage user={user} />;
     }
 }
+
+
+export default App

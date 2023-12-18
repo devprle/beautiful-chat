@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 body {
   background-image: url('./assets/valley.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  margin: 0px;
+  margin: 0;
 }
 
 .background {
@@ -24,16 +25,16 @@ body {
 
 .form-title {
   font-size: 42px;
-  font-family: 'Avenir';
+  font-family: 'Sen', sans-serif;
   font-weight: 800;
   letter-spacing: 0.5px;
   color: #e8e8e8;
-  padding-bottom: 12px;
+
 }
 
 .form-subtitle {
   font-size: 18px;
-  font-family: 'Avenir';
+  font-family: 'Sen', sans-serif;
   letter-spacing: 0.5px;
   color: #afafaf;
   padding-bottom: 24px;
@@ -51,13 +52,13 @@ body {
   left: 18px;
   font-size: 11px;
   color: rgb(175, 175, 175);
-  font-family: Avenir;
+  font-family: 'Sen', sans-serif;
   width: 100px;
 }
 .auth-input {
   background-color: #3e404b;
   color: white;
-  font-family: "Avenir";
+font-family: 'Sen', sans-serif;
   outline: none;
   border: none;
   border-radius: 8px;
@@ -73,7 +74,7 @@ body {
   border: none;
   outline: none;
   border-radius: 8px;
-  font-family: "Avenir";
+font-family: 'Sen', sans-serif;
   cursor: pointer;
   transition: all .44s ease;
   -webkit-transition: all .44s ease;
